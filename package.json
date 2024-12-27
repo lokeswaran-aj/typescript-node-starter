@@ -1,0 +1,20 @@
+{
+  "name": "typescript-node-starter",
+  "version": "0.0.0",
+  "description": "A starter project for PNPM, TypeScript and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [],
+  "author": "Lokeswaran Aruljothy",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
